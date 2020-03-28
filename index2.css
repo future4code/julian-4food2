@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    font-family: montserrat;
+}
+
+/* MENU---------------------------------------------*/
+
+header {
+    display: grid;
+    grid-template-columns: 500px 920px 1fr;
+}
+
+.logo {
+    width: 200px;
+    height: 95px;
+    margin-left: 10px;
+    display: grid;
+}
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav ul li {
+    float: left;
+    border-top: 1px solid #6c2b16;
+    border-bottom: 1px solid #6c2b16;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #015200;
+    text-decoration: none;
+}
+
+.redes {
+    color: #6c2b16;
+    text-align: right;
+    padding-top: 18px;
+}
+
+
+/* PASSO A PASSO-----------------------------------------*/
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    row-gap: 0;
+}
+
+#pzin {
+    font-size: 22px;
+    color: #015200;
+}
+
+#mensagem {
+    width: 250px;
+    height: 108px;
+    margin-top: 50px;
+}
+
+.numero1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 310px;
+    text-align: center;
+    column-gap: 160px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: #9cbcbb;
+}
+
+.numero2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    text-align: center;
+}
+
+.numero3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px;
+    text-align: center;
+}
+
+.item8 {
+    text-align: right;
+    padding-top: 50px;
+}
+
+.item9 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+#imagem1 {
+    width: 70vw;
+    height: 100%;
+}
+
+.numero0 {
+    text-align: center;
+    height: 500px;
+    background-color: #d4d8d7;
+}
+
+.botao {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #6c2b16;
+    color: white;
+    border-radius: 15px;
+}
+
+.botao a:hover {
+    color: #015200;
+}
+
+
+/*RODAPÉ------------------------------------------*/
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px dotted black;
+}
+
+article {
+    display: grid;
+}
+
+.pagamento ul li {
+    list-style: none;
+}
+
+ul i {
+    font-size: 50px;
+}
+
+.pagamento {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.parceiro ul li {
+    font-size: 30px;
+    list-style: none;
+}
+
+h1 {
+    justify-self: center;
+    align-self: center;
+}
+
+.logo1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul i {
+    font-size: 50px;
+}
+
+.pagamento {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.parceiro ul li {
+    font-size: 30px;
+}
+
+.parceiro {
+    display: grid;
+    justify-content: center;
+}
+
+h1 {
+    justify-self: center;
+    align-self: center;
+}
+
+.logo1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.item5 {
+    padding-top: 65px;
+    font-size: 18px;
+}
+
+.item6 {
+    padding-top: 65px;
+    font-size: 18px;
+}
+
+.item7 {
+    padding-top: 65px;
+    font-size: 18px;
+}
+
+span {
+    width: 20px;
+    height: 20x;
+}
