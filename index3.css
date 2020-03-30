@@ -1,0 +1,25 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 420px) {
+    /* celulares */
+    header {
+        display: grid;
+        grid-template-columns: 70%;
+        margin-left: 35%;
+    }
+    .numero0 {
+        text-align: center;
+        height: auto;
+        max-width: 100%;
+        margin-right: 30%;
+    }
+    .numero1 {
+        text-align: center;
+        grid-template-rows: 310px;
+        background-color: #9cbcbb;
+        margin-right: 20%;
+    }
+    #imagem1 {
+        max-width: 100%;
+        height: auto;
+        margin-right: 30%;
+    }
+}
